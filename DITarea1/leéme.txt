@@ -1,3 +1,0 @@
-Importar la base de datos en mySQL Workbench.
-
-Run al main para iniciar el programa.
