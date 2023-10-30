@@ -7,6 +7,7 @@ import java.util.Date;
 import javax.swing.JOptionPane;
 import objetoReserva.Reserva;
 
+
 /**
  * La clase ReservaFormulario representa la ventana de formulario de reserva de
  * la aplicación de gestión hotelera. Permite a los usuarios ingresar
@@ -89,6 +90,7 @@ public class ReservaFormulario extends javax.swing.JDialog {
         telefonoTextField.setToolTipText("El teléfono constará de 9 dígitos, sin espacios ni guiones");
 
         calendario.setToolTipText("");
+        calendario.setMinSelectableDate(new Date());
 
         calendarioLabel.setText("Fecha del evento");
 
